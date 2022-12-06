@@ -1,6 +1,6 @@
-# Robotics_Model
-~~~
-CS/FCFS:
+#
+### CS/FCFS:
+```
 #include<stdio.h>
 int main()
 {
@@ -43,8 +43,9 @@ avg_tat=(float)total/n;
 printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
-
-CS/SJF
+```
+## CS/SJF
+```
 #include<stdio.h>
 int main()
 {
@@ -85,14 +86,9 @@ avg_tat=(float)total/n;
 printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
-
-
-
-
-
-
-
-CS/PS
+```
+### CS/PS
+```
 #include<stdio.h>
 int main()
 {
@@ -141,7 +137,9 @@ avg_tat=(float)total/n;
 //average turnaround time
 printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);}
-CS/RR
+```
+### CS/RR
+```
 #include<stdio.h>
 main()
 {
@@ -195,7 +193,10 @@ for(i=0;i<n;i++)
 printf("%d\t\t %d\t\t %d\t\t %d\n",i+1,bt[i],wt[i],tat[i]); printf("avg
 wt time=%f,avg turn around time=%f",awt,atat);
 }
-IPC/PIPE
+```
+
+### IPC/PIPE
+```
 #include <stdio.h>
 int main()
 {
@@ -216,8 +217,10 @@ printf("The string received from pipe is: %s",a);
 }
 return 0;
 }
+```
 
-IPC/SYSTEM CALL READ WRITE CREATEFORKOPENCLOSE
+### IPC/SYSTEM CALL READ WRITE CREATEFORKOPENCLOSE
+```
 #include<sys/stat.h>
 #include<stdio.h>
 #include<fcntl.h>
@@ -242,8 +245,9 @@ close(f2);
 fork();
 return 0;
 }
-
-BANKERSALG
+```
+### BANKERSALG
+```
 #include<stdio.h>
 int main (){
 int allocated[15][15], max[15][15], need[15][15],
@@ -316,8 +320,10 @@ else
 printf ("\nThe system is in an unsafestate!!");
 return 0;
 }
+```
 
-PAGING TECHNIQUE
+### PAGING TECHNIQUE
+```
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -357,12 +363,13 @@ printf("\nThe Physical Address is -- %d",pa);
 }
 getch();
 }
+```
 
 
 
 
-
-PRA/FIFO
+### PRA/FIFO
+```
 #include<stdio.h>
 int main()
 {
@@ -398,12 +405,13 @@ printf("\n");
 printf("\nPage Fault Is %d",count);
 return 0;
 }
+```
 
 
 
 
-
-PRA/LRU
+### PRA/LRU
+```
 #include<stdio.h>
 main()
 {
@@ -455,8 +463,9 @@ printf("\t%d",q[r]);}
 printf("\n"); }}}
 printf("\nThe no of page faults is %d",c);
 }
-
-PRA/OPR
+```
+### PRA/OPR
+```
 #include<stdio.h>
 int main()
 {
@@ -492,11 +501,12 @@ printf("\n");
 printf("Page Fault Is %d",count);
 return 0;
 }
+```
 
 
 
-
-DS/FCFS
+### DS/FCFS
+```
 #include <stdio.h>
 #include <stdlib.h>
 int main()
@@ -516,8 +526,9 @@ initial=RQ[i];
 printf("Total head moment is %d",TotalHeadMoment);
 return 0;
 }
-
-DS/SSTF
+```
+### DS/SSTF
+```
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
@@ -544,8 +555,9 @@ count++;}
 printf("Total head movement is %d",TotalHeadMoment);
 return 0;
 }
-
-DS/SCAN
+```
+### DS/SCAN
+```
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -594,7 +606,9 @@ initial=RQ[i];}}
 printf("Total head movement is %d",TotalHeadMoment);
 return 0;
 }
-DS/LOOK
+```
+### DS/LOOK
+```
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
@@ -639,10 +653,9 @@ initial=RQ[i];}}
 printf("Total head movement is %d",TotalHeadMoment);
 return 0;
 }
-
-
-
-FM/SA
+```
+### FM/SA
+```
 #include < stdio.h>
 #include<conio.h>
 void main()
@@ -678,11 +691,9 @@ else
 exit();
 getch();
 }
-
-
-
-
-FM/IA
+```
+### FM/IA
+```
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -729,8 +740,9 @@ goto x;
 else
 exit(0);
 getch();}
-
-FM/LA
+```
+### FM/LA
+```
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -772,7 +784,7 @@ pages[a] = 1;
 recursivePart(pages);
 getch();
 return 0;
-~~~
+```
 
 
 
